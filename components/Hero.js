@@ -213,7 +213,7 @@ export default function Hero() {
               Welcome to NoteyNote, a sleek, intuitive web app I developed to make note-taking fun and effortless!
               On NoteyNote, you can easily add, delete, and filter through your notes in an instant, ensuring your
               thoughts stay organized and accessible. Plus, your data is saved securely, so your notes are always with you,
-              forever. Whether you're tracking ideas, daily tasks, or creative inspirations, NoteyNote is built to handle it
+              forever. Whether you&apos;re tracking ideas, daily tasks, or creative inspirations, NoteyNote is built to handle it
               all—making it your ultimate companion for capturing and storing everything that matters!
               </p>
               <ul className="flex flex-wrap gap-2 sm:gap-2 text-xs sm:text-base lg:text-2xl my-6 md:my-10">
