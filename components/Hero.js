@@ -159,7 +159,7 @@ export default function Hero() {
               </Link>
               <div className="max-w-lg ml-0">
       <div className="rounded-lg overflow-hidden shadow-lg "  >
-      <Link href={'https://trackingyourlife.netlify.app//'}>
+      <Link href={'https://trackingyourlife.netlify.app/'}>
         <Image
           src="/images/lifetracker.jpg"
           alt="Next.js Logo"
