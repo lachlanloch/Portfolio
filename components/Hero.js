@@ -156,22 +156,19 @@ export default function Hero() {
             <div>
               <Link href={'https://trackingyourlife.netlify.app'}>
                 <h1 className="my-4 text-zinc-100">Lifetracker - Track your Mood!</h1>
-                
               </Link>
               <div className="max-w-lg ml-0">
       <div className="rounded-lg overflow-hidden shadow-lg "  >
-      <Link href={'https://lachlanlochnoteynote.netlify.app/'}>
+      <Link href={'https://trackingyourlife.netlify.app//'}>
         <Image
           src="/images/lifetracker.jpg"
           alt="Next.js Logo"
-       
           width={400}
           height={250}
           className=" p-2"
         />
               </Link>
       </div>
-
     </div>
               <p className="my-4">
                 Simple website where you track your mood each day and gets displayed on a calendar
