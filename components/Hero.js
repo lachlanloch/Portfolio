@@ -101,9 +101,9 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className="p-8 sm:p-14 text-zinc-400 text-sm sm:text-lg z-10">
-        <h1 className="text-zinc-200 sm:text-2xl lg:text-4xl">About Me!</h1>
-        <p className="my-4">
+      <div className="p-8 sm:p-14 text-zinc-400 z-10">
+        <h1 className="text-zinc-200 sm:text-4xl lg:text-5xl">About Me!</h1>
+        <p className="my-4 sm:text-xl lg:text-2xl">
           I began my journey into web development in 2018, inspired by my uncle, who was an
           experienced developer. I spent hours reading through his code, fascinated by how
           websites were built from scratch. That curiosity quickly turned into a passion, and I
@@ -111,7 +111,7 @@ export default function Hero() {
           it was a lot of trial and error, but those early days laid the foundation for what would
           become a long-term interest in web development.
         </p>
-        <p className="my-4">
+        <p className="my-4 sm:text-xl lg:text-2xl">
           Fast forward to today, and my focus has shifted towards mastering modern frameworks and
           languages. I’m working on developing full-stack applications and becoming proficient in
           handling data. Staying updated with the latest technology trends has been a major part of
@@ -119,7 +119,7 @@ export default function Hero() {
           standards. From backend development to frontend design, I’m constantly exploring new
           tools and frameworks to sharpen my skills.
         </p>
-        <p className="my-4">
+        <p className="my-4 sm:text-xl lg:text-2xl">
           Outside of coding, I have a few passions that keep me grounded. I’ve developed a deep love
           for philosophy, particularly in areas like the philosophy of religion, epistemology, and
           logic, which challenge me to think critically and explore deeper questions about knowledge
@@ -150,14 +150,29 @@ export default function Hero() {
       </div>
         {/*project1*/}
       <div className="flex flex-col p-8 sm:p-14 text-zinc-400 z-10">
-        <h1 className="text-2xl sm:text-4xl my-4 lg:text-4xl text-zinc-200">My Projects</h1>
-        <div className="text-sm sm:text-lg lg:text-2xl">
-  
+        <h1 className="text-2xl sm:text-4xl my-4 lg:text-5xl text-zinc-200">My Projects</h1>
+        <div className="text-sm sm:text-lg lg:text-3xl">
           <div className="md:flex md:flex-row-reverse md:gap-16">
             <div>
               <Link href={'https://trackingyourlife.netlify.app'}>
                 <h1 className="my-4 text-zinc-100">Lifetracker - Track your Mood!</h1>
+                
               </Link>
+              <div className="max-w-lg ml-0">
+      <div className="rounded-lg overflow-hidden shadow-lg "  >
+      <Link href={'https://lachlanlochnoteynote.netlify.app/'}>
+        <Image
+          src="/images/lifetracker.jpg"
+          alt="Next.js Logo"
+       
+          width={400}
+          height={250}
+          className=" p-2"
+        />
+              </Link>
+      </div>
+
+    </div>
               <p className="my-4">
                 Simple website where you track your mood each day and gets displayed on a calendar
                 from which you can look back on and see how you have been feeling! In addition to
@@ -181,34 +196,34 @@ export default function Hero() {
               Netlify
             </li>
           </ul>
-            </div>
-            <Link href={'https://trackingyourlife.netlify.app'}>
-            <div className="relative w-[400px] h-[250px]">
-  <Image
-    src='/images/lifetracker.jpg'
-    alt="LifeTracker website"
-    width={400}
-    height={250}
-    objectFit="cover"  // Ensures the image covers the entire area
-    className="my-8"
-  />
-</div>
-            </Link>
-          </div>
-         
+            </div>         
+          </div>    
         </div>
       </div>
-
-
        {/* project2*/}
       <div className="flex flex-col p-8 sm:p-14 text-zinc-400 z-10">
-        <h1 className="text-2xl sm:text-4xl my-4 lg:text-4xl text-zinc-200">My Projects</h1>
-        <div className="text-sm sm:text-lg lg:text-2xl">
+        <h1 className="text-2xl sm:text-4xl my-4 lg:text-5xl text-zinc-200">My Projects</h1>
+        <div className="text-sm sm:text-lg lg:text-3xl">
           <div className="md:flex md:flex-row-reverse md:gap-16">
             <div>
               <Link href={'https://lachlanlochnoteynote.netlify.app/'}>
                 <h1 className="my-4 text-zinc-100">NoteyNote - Preserve Your Thoughts Forever</h1>
+                
               </Link>
+              <div className="max-w-lg ">
+      <div className="rounded-lg overflow-hidden shadow-lg">
+      <Link href={'https://lachlanlochnoteynote.netlify.app/'}>
+        <Image
+          src="/images/noteynote.jpg"
+          alt="Next.js Logo"
+   
+          width={400}
+          height={250}
+          className="object-cover p-2"
+        />
+        </Link>
+      </div>
+    </div>
               <p className="my-4">
               Welcome to NoteyNote, a sleek, intuitive web app I developed to make note-taking fun and effortless!
               On NoteyNote, you can easily add, delete, and filter through your notes in an instant, ensuring your
@@ -233,27 +248,10 @@ export default function Hero() {
               Netlify
             </li>
           </ul>
-
-            </div>
-            <Link href={'https://lachlanlochnoteynote.netlify.app/'}>
-            
-            <div className="relative w-[400px] h-[250px] ">
-              <Image
-                src='/images/noteynote.jpg'
-                alt="LifeTracker website"
-                width={400}
-                height={300}
-                objectFit="cover"  // Ensures the image covers the entire area
-                className="my-8"
-              />
-            </div>
-            </Link>
-          </div>
-         
+            </div>     
+          </div>        
         </div>
       </div>
-
-
     </div>
   );
 }
