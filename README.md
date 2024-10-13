@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Lachlan's Web Development Portfolio
 
-## Getting Started
+Welcome to my portfolio! I am Lachlan, a passionate full-stack developer with a keen interest in crafting dynamic and responsive web applications. My journey in web development began in 2018, and since then, I have immersed myself in mastering modern frameworks and languages.
+🌐 About Me
 
-First, run the development server:
+I thrive on creating efficient and user-friendly applications that connect people and possibilities. With experience in both front-end and back-end development, I strive to stay updated with the latest technologies and trends to ensure my projects meet current standards.
+Skills
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+    Front-End Technologies: HTML, CSS, JavaScript, React, Tailwind CSS
+    Back-End Technologies: Node.js, Express, Firestore
+    Deployment: Netlify, Heroku, GitHub
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+💻 Projects
+1. LifeTracker
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+A simple web application that allows users to track their moods daily and visualize them on a calendar. Users can also answer daily questions and save them in a Firestore NoSQL database.
+2. NoteyNote
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+An intuitive note-taking app where users can easily add, delete, and filter notes. Your thoughts are stored securely, making them accessible anytime, anywhere!
+📫 Connect with Me
 
-## Learn More
+Feel free to reach out to me on:
 
-To learn more about Next.js, take a look at the following resources:
+    GitHub
+    LinkedIn
+    Instagram
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Thank you for visiting my portfolio! I look forward to connecting with you and exploring opportunities to collaborate.

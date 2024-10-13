@@ -14,9 +14,6 @@ export default function Hero() {
 
   
 
-  
-
-
   const [mousePos, setMousePos] = useState({ x: 50, y: 50 });
   const handleMouseMove = (e) => {
     const rect = e.currentTarget.getBoundingClientRect();
@@ -34,7 +31,7 @@ export default function Hero() {
         style={{
           background: `radial-gradient(circle at ${mousePos.x}% ${mousePos.y}%, #171A39, 10%, transparent 25%)`,
           zIndex: 2,
-        }}  
+        }}
       />
     <Info  /> 
     <About />
@@ -44,6 +41,5 @@ export default function Hero() {
 
       
     </div>
-
-  )
+  );
 }
